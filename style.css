@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C2128;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: #1C2128;
+    grid-gap: 2rem;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ADBAC7;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #ADBAC7;
+    font-size: 25px;
+}
+
+input {
+    border: 1px solid #ADBAC7;
+    padding: 10px 18px 6px 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 10px;
+}
+
+button {
+    border: 1px solid #ADBAC7;
+    background-color: #444C56;
+    color: #ADBAC7;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 18px 6px 16px;
+    cursor: pointer;
+    margin-left: -4px;
+}
+
+#profileImg img {
+    width: 100% !important;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: 1px solid #ADBAC7;
+}
+
+.resultsGit {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5;
+}
+
+h3 {
+    color: #ADBAC7;
+    justify-content: flex-start;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+a {
+    color: #ADBAC7
+}
+
+.fas {
+    margin-right: 5px;
+    font-size: 10px;
+    line-height: 2.5
+}
+
+#nameGit {
+    font-size: 30px;
+    color: #ADBAC7;
+}
+
+#userGit {
+    color: #48515B;
+    font-size: 20px;
+}
+
+#bioGit {
+    color: #ADBAC7;
+    margin-top: 10px;
+}
+
+#followersGit,
+#reposGit {
+    color: #ADBAC7;
+    margin-right: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+
+#followingGit {
+    color: #ADBAC7;
+    display: flex;
+}
+
+#locationGit,
+#blogGit {
+    color: #ADBAC7;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
