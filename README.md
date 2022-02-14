@@ -1,4 +1,4 @@
-# Github - Fetch API  🔍📌
+# Github - Fetch API  🔍👩🏽‍💻
 
 Aplicação desenvolvida com HTML, CSS e Javascript, que realiza requisições assíncronas à API do Github e mostra em tela dados de usários de Github.
 
